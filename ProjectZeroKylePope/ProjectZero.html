@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <!--Define title, link external CSS file, and link for font-family-->
+        <title>Kyle's Game</title>
+        <link rel="stylesheet" type="text/css" href="ProjectZero.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--Nav is created as menu for user-->
+        <nav id = "menu">
+            <h2>Let's Play Tic-Tac-Toe</h2>
+            <h3>Select Game Mode</h3>
+            <ul>
+                <li><input id = "single" type = "radio" name = "identifier" value = "OnePlayer"/>One Player</li>
+                <li><input id = "double" type = "radio" name = "identifier" value = "TwoPlayers"/>Two Players</li>
+            </ul>
+        </nav>
+        <!--Div is created to hold game board-->
+        <div id = "board">
+            <table id = "ticTable">
+                <tr>
+                    <th id = "th1" colspan = "3">Player X Goes First</th>
+                </tr>
+                <tr>
+                    <td><button class = "TicBtn" id = "btn0" type = "button"></button></td>                
+                    <td><button class = "TicBtn" id = "btn1" type = "button"></button></td>
+                    <td><button class = "TicBtn" id = "btn2" type = "button"></button></td>
+                </tr>
+                <tr>
+                    <td><button class = "TicBtn" id = "btn3" type = "button"></button></td>
+                    <td><button class = "TicBtn" id = "btn4" type = "button"></button></td>
+                    <td><button class = "TicBtn" id = "btn5" type = "button"></button></td>
+                </tr>
+                <tr>
+                    <td><button class = "TicBtn" id = "btn6" type = "button"></button></td>
+                    <td><button class = "TicBtn" id = "btn7" type = "button"></button></td>
+                    <td><button class = "TicBtn" id = "btn8" type = "button"></button></td>
+                </tr>
+            </table>
+        </div>
+    </body>
+    <script src="ProjectZero_Combo.js"></script>
+</html>

@@ -1,0 +1,49 @@
+html { 
+    font-family: 'Special Elite', cursive;
+    background: url(Photos/grid.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+button {
+    font-family: 'Special Elite', cursive;
+    font-size: 20pt;
+    background-color: rgba(255, 127, 80, .9);
+    color: black;
+    border: 0px;
+    width: 92px;
+    height: 91.24px;
+}
+
+ul {
+    list-style: none;
+}
+
+table {
+    margin: auto;
+    background-color: white;
+    border: 10px solid black;
+    visibility: hidden;
+    width: 300px;
+    height: 300px;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+nav {
+    margin: auto;
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 1em;
+    background-color: rgba(255, 127, 80, .9);
+}
+
+.TicBtn {
+    font-family: 'Special Elite', cursive;
+    font-size: 20pt;
+}
